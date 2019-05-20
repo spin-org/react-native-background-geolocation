@@ -18,11 +18,7 @@
 #import <React/RCTEventEmitter.h>
 #endif
 
-#if __has_include("RCTInvalidating.h")
-#import "RCTInvalidating.h"
-#else
 #import <React/RCTInvalidating.h>
-#endif
 
 @interface RNBackgroundGeolocation : RCTEventEmitter <RCTInvalidating>
 
